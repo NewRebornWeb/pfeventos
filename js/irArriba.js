@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.ir-arriba').click(function(){$('body, html').animate({scrollTop:'0px'},300)});$(window).scroll(function(){if($(this).scrollTop()>0){$('.ir-arriba, .btn-wsp').slideDown(300)}else{$('.ir-arriba, .btn-wsp').slideUp(300)}})})

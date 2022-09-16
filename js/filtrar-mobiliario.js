@@ -1,0 +1,1 @@
+var $grid=$('.popular-list').isotope({});$('.grupo-btn').on('click','button',function(){var filterValue=$(this).attr('data-filter');resetFilterBtns();$(this).addClass('btn-filtro-activo');$grid.isotope({filter:filterValue})});var filterBtns=$('.grupo-btn').find('button');function resetFilterBtns(){filterBtns.each(function(){$(this).removeClass('btn-filtro-activo')})}
